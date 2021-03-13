@@ -1,0 +1,42 @@
+.navigation-bar{
+    position: fixed;/**/
+    bottom: 0px;/**/
+    display: flex;
+    border-top: 1px solid var(--kokoa-light-grey);
+    height: 70px;
+    width: 100%;
+    background-color: #F9F9FA;
+    justify-content: space-around;
+}
+.navigation-bar__column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-has-news{
+    position: relative;
+}
+.nav-bar-chat{
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    background-color: tomato;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar-dot{
+    position: absolute;
+    right: -10px;
+    top: 15px;
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+}
+/* 링크 추가까지. */

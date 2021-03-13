@@ -1,0 +1,16 @@
+.friends-recommendation{
+    color: var(--kokoa-grey);
+    border-bottom: 1px solid var(--kokoa-light-grey);
+}
+.friends-recommendation__title{
+    margin-top: 20px;
+}
+.friends-recommendation__content{
+    text-align: center;
+    font-size: 20px;
+}
+.friends-recommendation__content span{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    display: block;
+}

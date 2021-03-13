@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/lower-icon-menu.css";
+@import "components/open-chat.css";
+@import "components/navigation-bar.css";
+/*screens*/
+@import "screens/find.css";
+
+body{/*font - 맨 위 googleapi font와 같이 사용.*/
+    font-family: 'Ubuntu', sans-serif;
+    color : var(--kokoa-dark-grey); 
+}
+.main-screen{
+    margin: 0px var(--horizontal-space);
+}
